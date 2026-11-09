@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/y0u41/dsh-research-studio/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.
+  - name: Read the red lines first
+    url: https://github.com/y0u41/dsh-research-studio/blob/main/docs/red-lines.md
+    about: The project refuses fabricated execution, fabricated citations, and license overreach.

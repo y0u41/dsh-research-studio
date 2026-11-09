@@ -1,0 +1,56 @@
+name: Feature request
+description: Propose a capability, a contract change, or a documentation improvement.
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is deliberately narrow: it composes prompts and opens sessions.
+        It does **not** bundle upstream generators, run their scripts, or upload data.
+        Proposals that cross those lines will be declined unless the red lines change first.
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Layer
+      options:
+        - Business / delivery
+        - Architecture / code
+        - Quality / testing
+        - Cross-cutting foundation
+        - Red lines
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard today? Who is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change, and what should explicitly not change?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risks and red-line check
+      description: License, privacy, fabricated execution, compatibility, or duplication risks.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I read docs/red-lines.md and this proposal does not cross a red line.
+          required: true
+        - label: I understand the two packages must stay independently installable.
+          required: true

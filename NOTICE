@@ -1,0 +1,52 @@
+DSH Research Studio
+===================
+
+An independent, community-built integration for DeepSeek Harness (DSH).
+This project is not affiliated with, endorsed by, or sponsored by the
+upstream projects listed below.
+
+Upstream: PPT Master
+--------------------
+Copyright (c) 2025-2026 Hugo He
+License: MIT
+https://github.com/hugohe3/ppt-master
+
+This repository contains an independent DSH panel and integration code.
+It does not bundle the upstream Python source, templates, examples, or
+SKILL.md. At runtime, the optional guide tool reads a user-provided local
+checkout of the upstream project.
+
+Upstream: Academic Research Skills
+----------------------------------
+Copyright (c) 2026 Cheng-I Wu
+License: CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0
+International)
+https://github.com/Imbad0202/academic-research-skills
+
+The academic-research-skills package adapts the upstream workflow structure
+(stages, skill/mode taxonomy, integrity gates) and includes an original
+summary of that workflow. It is distributed under CC BY-NC 4.0 and may not
+be used for commercial purposes without separate permission from the
+upstream rights holder. The root MIT license does not override this package's
+license.
+
+Host: DeepSeek Harness
+----------------------
+DeepSeek Harness (DSH) is the host application that loads these plugins.
+This project uses DSH's public plugin APIs but is not an official DSH
+project. DSH itself is governed by its own license.
+
+Original work
+-------------
+Unless otherwise noted, the original code and documentation in this
+repository are licensed under the MIT License. See LICENSE.
+
+Bundled license texts
+---------------------
+LICENSE
+packages/ppt-master/LICENSE
+packages/academic-research-skills/LICENSE
+LICENSES/CC-BY-NC-4.0.txt
+
+Full attribution and scope:
+ATTRIBUTION.md

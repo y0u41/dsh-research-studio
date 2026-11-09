@@ -1,0 +1,63 @@
+{
+  "name": "@dsh-research-studio/academic-research-skills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A DSH sidebar workspace panel that composes a checkpointed Academic Research Skills prompt.",
+  "license": "CC-BY-NC-4.0",
+  "author": "DSH Research Studio contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y0u41/dsh-research-studio.git",
+    "directory": "packages/academic-research-skills"
+  },
+  "bugs": {
+    "url": "https://github.com/y0u41/dsh-research-studio/issues"
+  },
+  "homepage": "https://github.com/y0u41/dsh-research-studio/tree/main/packages/academic-research-skills#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "academic-research",
+    "literature-review",
+    "peer-review",
+    "academic-research-skills"
+  ],
+  "scripts": {
+    "test": "node test/render-smoke.mjs && node test/host-smoke.mjs",
+    "test:render": "node test/render-smoke.mjs",
+    "test:host": "node test/host-smoke.mjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  }
+}

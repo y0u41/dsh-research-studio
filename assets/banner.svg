@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">DSH Research Studio</title>
+  <desc id="desc">Two workspace panels: PPT Master for editable presentations and Academic Research Skills for checkpointed research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ea8fe"/>
+      <stop offset="1" stop-color="#f2b84b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" rx="0" fill="url(#bg)"/>
+  <circle cx="1120" cy="70" r="180" fill="#1b2a4d" opacity=".55"/>
+  <circle cx="120" cy="380" r="160" fill="#2a1f18" opacity=".45"/>
+  <text x="72" y="104" fill="#9fb4d8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" letter-spacing="4">DEEPSEEK HARNESS · WORKSPACE PANELS</text>
+  <text x="72" y="178" fill="#f6f8ff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="54" font-weight="700" letter-spacing="-1">DSH Research Studio</text>
+  <text x="72" y="222" fill="#b8c6e2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="21">Editable decks. Checkpointed research. Human decisions stay human.</text>
+  <rect x="72" y="258" width="536" height="96" rx="14" fill="#121c33" stroke="#2c3d63"/>
+  <rect x="92" y="278" width="38" height="38" rx="8" fill="#1d3a6b"/>
+  <rect x="100" y="286" width="22" height="15" rx="2" fill="#9cc2ff"/>
+  <rect x="100" y="305" width="14" height="3" rx="1.5" fill="#9cc2ff"/>
+  <text x="148" y="296" fill="#f6f8ff" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600">PPT Master</text>
+  <text x="148" y="322" fill="#9fb4d8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Native shapes, charts and masters — still editable.</text>
+  <rect x="632" y="258" width="576" height="96" rx="14" fill="#1c1712" stroke="#4a3a26"/>
+  <rect x="652" y="278" width="38" height="38" rx="8" fill="#4a3419"/>
+  <path d="M660 306h22M660 298h14M660 290h22" stroke="#f2c879" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="708" y="296" fill="#fff7ec" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600">Academic Research Skills</text>
+  <text x="708" y="322" fill="#d8c3a2" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Research → write → integrity gate → review → revise → finalize.</text>
+  <rect x="72" y="382" width="1136" height="3" rx="1.5" fill="url(#line)" opacity=".8"/>
+</svg>
