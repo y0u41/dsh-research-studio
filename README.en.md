@@ -86,7 +86,7 @@ Version **1.0.0**, distributed as source via GitHub (once published); not publis
 
 ## Publishing to GitHub
 
-This directory has no remote yet. First publish:
+The repository is published at <https://github.com/y0u41/dsh-research-studio>. The commands below are only for rebuilding from scratch or migrating to a new account/organization:
 
 ```bash
 # 1. Create an empty GitHub repository (no README/LICENSE)

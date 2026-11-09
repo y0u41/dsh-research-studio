@@ -49,7 +49,7 @@ git clone https://github.com/y0u41/dsh-research-studio.git
 cd dsh-research-studio
 ```
 
-> 仓库地址已按账号 `y0u41` 预填；如果改用组织，把 `y0u41` 统一替换即可。本目录尚未绑定远程。
+> 仓库已发布到 <https://github.com/y0u41/dsh-research-studio>；如果迁移到组织，把 `y0u41` 统一替换并更新远程地址。
 
 ### 3. 安装一个或两个面板
 
@@ -171,7 +171,7 @@ npm test
 
 ## 发布到 GitHub
 
-本目录还没有绑定远程仓库。第一次发布：
+仓库已发布到 GitHub。以下命令仅用于从零重建或迁移到新账号/组织：
 
 ```bash
 # 1. 在 GitHub 创建一个空仓库（不要勾选 README/LICENSE）
